@@ -8,7 +8,7 @@
       </Orca>
       <Orca OrcaName="CueSheetFolder" BusMap="/CriAtomCraftV2Root/GlobalSettings/BusMap/BusMapforCue/BusMap_Default" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheetFolder">
         <Orca OrcaName="WorkUnit_0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheetSubFolder">
-          <Orca OrcaName="CueSheet_0" AcfMd5hash="Nf59oUQNvF5V95s3p2f9fQ==" CueSheetPaddingSize="2048" LastOutputCueSheetSize="155616" OoUniqId="87478a05-cf2d-4f40-b0b7-404e921f885f" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheet">
+          <Orca OrcaName="CueSheet_0" AcfMd5hash="Nf59oUQNvF5V95s3p2f9fQ==" CueSheetPaddingSize="2048" LastOutputCueSheetSize="155904" OoUniqId="87478a05-cf2d-4f40-b0b7-404e921f885f" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheet">
             <Orca OrcaName="MaterialRootFolder" StartCueId="0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueFolder">
               <Orca OrcaName="SD" BusSendExName1="BUS1_0" BusSendExName2="BUS1_1" CueID="0" SynthType="SynthPolyphonic" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
                 <Orca OrcaName="Track_noise" BiquadCof="0.99" BiquadQ="5.43" BiquadType="LowPass" ObjectColor="200, 40, 120, 200" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
@@ -48,7 +48,25 @@
               </Orca>
               <Orca OrcaName="orchehit" BusSendExName1="BUS1_0" BusSendExName2="BUS1_1" CueID="1" SynthType="SynthPolyphonic" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
                 <Orca OrcaName="Track_orchehit" ObjectColor="200, 40, 120, 200" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
-                  <Orca OrcaName="orchehit.wav" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/WorkUnit_0_MaterialInfo/MaterialRootFolder/orchehit.wav" LinkWaveformPathName="orchehit.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
+                  <Orca OrcaName="orchehit.wav" AutoRepeatInterval="212" AutoRepeatNum="7" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/WorkUnit_0_MaterialInfo/MaterialRootFolder/orchehit.wav" LinkWaveformPathName="orchehit.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
+                  <Orca OrcaName="Automation" AisacType="Automation" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
+                    <Orca OrcaName="Volume" ControlDestinationType="Volume" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
+                      <Orca OrcaName="AutomationPoint" ControlValue="300" DestinationValue="1.06" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+                      <Orca OrcaName="AutomationPoint" ControlValue="1900" DestinationValue="0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+                    </Orca>
+                    <Orca OrcaName="Pitch" ControlDestinationType="Pitch" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
+                      <Orca OrcaName="AutomationPoint" ControlValue="600" DestinationValue="200" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+                      <Orca OrcaName="AutomationPoint" ControlValue="2100" DestinationValue="-2400" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+                    </Orca>
+                  </Orca>
+                </Orca>
+                <Orca OrcaName="Aisac_0" AisacActionType="AutoModulation" AisacControl="/CriAtomCraftV2Root/GlobalSettings/AISAC Controls/Any" ModulationStepTimeMS="2000" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
+                  <Orca OrcaName="Pan3DAngle" ControlDestinationType="Pan3DAngle" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
+                    <Orca OrcaName="(no name)" ControlValue="0" DestinationValue="0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+                    <Orca OrcaName="AisacPoint" ControlValue="0.34" DestinationValue="-90" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+                    <Orca OrcaName="AisacPoint" ControlValue="0.7" DestinationValue="54" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+                    <Orca OrcaName="(no name)" ControlValue="1" DestinationValue="0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+                  </Orca>
                 </Orca>
               </Orca>
               <Orca OrcaName="p125" BusSendExName1="BUS1_0" BusSendExName2="BUS1_1" CueID="3" SynthType="SynthPolyphonic" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
