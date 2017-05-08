@@ -7,7 +7,7 @@
       <Orca OrcaName="AISAC Controls" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControlFolder">
         <Orca OrcaName="Any" ControlId="0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
         <Orca OrcaName="Distance" ControlId="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
-        <Orca OrcaName="Dacking" ControlId="2" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
+        <Orca OrcaName="Ducking" ControlId="2" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
         <Orca OrcaName="AisacControl03" ControlId="3" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
         <Orca OrcaName="AisacControl04" ControlId="4" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
         <Orca OrcaName="AisacControl05" ControlId="5" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl" />
@@ -33,7 +33,7 @@
         </Orca>
       </Orca>
       <Orca OrcaName="REACT" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoReactFolder">
-        <Orca OrcaName="React_0" ChangeParameter="/CriAtomCraftV2Root/GlobalSettings/AISAC Controls/Dacking" DecrementTime="500" DestCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/CategoryGroup_0/BGM" IncrementCurveStrength="1.59" IncrementCurveType="SlowStartRapidEnd" IncrementTime="500" Level="0.2" SourceCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/CategoryGroup_0/Voice" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoReact" />
+        <Orca OrcaName="React_0" ChangeParameter="/CriAtomCraftV2Root/GlobalSettings/AISAC Controls/Ducking" DecrementTime="500" DestCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/CategoryGroup_0/BGM" IncrementCurveStrength="1.59" IncrementCurveType="SlowStartRapidEnd" IncrementTime="500" Level="0.2" SourceCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/CategoryGroup_0/Voice" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoReact" />
       </Orca>
       <Orca OrcaName="VoiceLimitGroups" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoVoiceLimitGroupFolder">
         <Orca OrcaName="VoiceLimitGroup_0" VoiceLimitNum="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoVoiceLimitGroup" />
