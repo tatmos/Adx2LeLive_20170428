@@ -21,6 +21,7 @@
         </Orca>
         <Orca OrcaName="cabasaLoop.wav" Channels="2" EncodeFileSize="130264" LastLoadSrcFileTimeStamp="2017/05/08 22:04:16" ReloopEnableFlag="True" ReloopEnd="192000" ResamplingRate="48000" SampleFrames="192000" SamplingRate="48000" SourceFileSize="768702" WaveImageCacheWriteTime="2017/05/08 22:04:16" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
         <Orca OrcaName="seyana.wav" Channels="1" EncodeFileSize="4870" LastLoadSrcFileTimeStamp="2017/05/08 22:11:19" ReloopEnd="13433" ResamplingRate="22050" SampleFrames="13433" SamplingRate="22050" SourceFileSize="26910" WaveImageCacheWriteTime="2017/05/08 22:11:19" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
+        <Orca OrcaName="indoLoop.wav" Channels="2" EncodeFileSize="258480" LastLoadSrcFileTimeStamp="2017/05/17 21:53:27" ReloopEnableFlag="True" ReloopEnd="384000" ResamplingRate="48000" SampleFrames="384000" SamplingRate="48000" SourceFileSize="1536702" WaveImageCacheWriteTime="2017/05/17 21:53:27" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
       </Orca>
     </Orca>
   </OrcaTree>

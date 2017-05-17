@@ -150,15 +150,38 @@
               </Orca>
             </Orca>
           </Orca>
-          <Orca OrcaName="CueSheet_1" AcfMd5hash="3yCtCj+6cMbB+h613We7zw==" CueSheetPaddingSize="2048" LastOutputCueSheetSize="140480" OoUniqId="cb26660c-2da3-4bf4-bf58-539b264c78ca" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheet">
+          <Orca OrcaName="CueSheet_1" AcfMd5hash="4E1jEIwjWtowW+W1SqYb+g==" CueSheetPaddingSize="2048" LastOutputCueSheetSize="401696" OoUniqId="cb26660c-2da3-4bf4-bf58-539b264c78ca" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheet">
             <Orca OrcaName="cabasaLoop" BusSendExName1="BUS1_0" BusSendExName2="BUS1_1" Category0="/CriAtomCraftV2Root/GlobalSettings/Categories/CategoryGroup_0/BGM" CueID="0" SynthType="SynthPolyphonic" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
               <Orca OrcaName="Track_cabasaLoop" ObjectColor="200, 40, 120, 200" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
                 <Orca OrcaName="cabasaLoop.wav" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/WorkUnit_0_MaterialInfo/MaterialRootFolder/cabasaLoop.wav" LinkWaveformPathName="cabasaLoop.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
               </Orca>
+              <Orca OrcaName="BeatSyncParam" BeatListStr="10001111111111111111111111111111" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoBeatSyncParam" />
             </Orca>
             <Orca OrcaName="seyana" BusSendExName1="BUS1_0" BusSendExName2="BUS1_1" Category0="/CriAtomCraftV2Root/GlobalSettings/Categories/CategoryGroup_0/Voice" CueID="1" SynthType="SynthPolyphonic" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
               <Orca OrcaName="Track_seyana" ObjectColor="200, 40, 120, 200" Volume="0.42" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
                 <Orca OrcaName="seyana.wav" EgReleaseTimeMs="2803" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/WorkUnit_0_MaterialInfo/MaterialRootFolder/seyana.wav" LinkWaveformPathName="seyana.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
+              </Orca>
+              <Orca OrcaName="SeqStart" EventEnableFlag="True" EventEndTime="0" EventStartTime="50" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoEventOn" />
+            </Orca>
+            <Orca OrcaName="indoLoop" BusSendExName1="BUS1_0" BusSendExName2="BUS1_1" Category0="/CriAtomCraftV2Root/GlobalSettings/Categories/CategoryGroup_0/BGM" CueID="2" SynthType="SynthPolyphonic" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
+              <Orca OrcaName="Track_indoLoop" ObjectColor="200, 40, 120, 200" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
+                <Orca OrcaName="indoLoop.wav" LinkWaveform="/CriAtomCraftV2Root/WorkUnits/WorkUnit_0_MaterialInfo/MaterialRootFolder/indoLoop.wav" LinkWaveformPathName="indoLoop.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
+              </Orca>
+              <Orca OrcaName="BeatSyncParam" BeatListStr="10101111111111111111111111111111" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoBeatSyncParam" />
+            </Orca>
+            <Orca OrcaName="beatCabasa" BusSendExName1="BUS1_0" BusSendExName2="BUS1_1" CueID="3" SynthType="SynthPolyphonic" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
+              <Orca OrcaName="ActionTrack" ObjectColor="200, 40, 120, 200" SynthType="ActionTrack" TargetObject="/CriAtomCraftV2Root/WorkUnits/WorkUnit_0/CueSheetFolder/WorkUnit_0/CueSheet_1/cabasaLoop" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthActionTrack">
+                <Orca OrcaName="Start" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoActionStart" />
+              </Orca>
+            </Orca>
+            <Orca OrcaName="beatIndo" BusSendExName1="BUS1_0" BusSendExName2="BUS1_1" CueID="4" SynthType="SynthPolyphonic" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
+              <Orca OrcaName="ActionTrack" ObjectColor="200, 40, 120, 200" SynthType="ActionTrack" TargetObject="/CriAtomCraftV2Root/WorkUnits/WorkUnit_0/CueSheetFolder/WorkUnit_0/CueSheet_1/indoLoop" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthActionTrack">
+                <Orca OrcaName="Start" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoActionStart" />
+              </Orca>
+            </Orca>
+            <Orca OrcaName="beatSeyana" BusSendExName1="BUS1_0" BusSendExName2="BUS1_1" CueID="5" SynthType="SynthPolyphonic" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
+              <Orca OrcaName="ActionTrack" ObjectColor="200, 40, 120, 200" SynthType="ActionTrack" TargetObject="/CriAtomCraftV2Root/WorkUnits/WorkUnit_0/CueSheetFolder/WorkUnit_0/CueSheet_1/seyana" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthActionTrack">
+                <Orca OrcaName="Start" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoActionStart" />
               </Orca>
             </Orca>
           </Orca>

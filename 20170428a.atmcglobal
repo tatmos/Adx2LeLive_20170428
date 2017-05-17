@@ -28,7 +28,7 @@
       <Orca OrcaName="LanguageSettings" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoLanguageSettingFolder" />
       <Orca OrcaName="Categories" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategoryFolder">
         <Orca OrcaName="CategoryGroup_0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategoryGroup">
-          <Orca OrcaName="BGM" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
+          <Orca OrcaName="BGM" CueLimitEnableFlag="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
           <Orca OrcaName="Voice" CategoryId="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory" />
         </Orca>
       </Orca>
